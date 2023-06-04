@@ -1,0 +1,26 @@
+Microsoft Windows [Version 10.0.19045.2965]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\naena\Desktop\kadai_004>cd git_challenge
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git init
+Initialized empty Git repository in C:/Users/naena/Desktop/kadai_004/git_challenge/.git/
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git add hello_world.txt
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git commit -m"最初のコミット"
+[master (root-commit) 08293d9] 最初のコミット   
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git add hello_world.txt
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git commit -m"日本語の追記"
+[master ca3f489] 日本語の追記   
+ 1 file changed, 2 insertions(+)
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git log --oneline
+ca3f489 (HEAD -> master) 日本語の追記
+08293d9 最初のコミット
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>
