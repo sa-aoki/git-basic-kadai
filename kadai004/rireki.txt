@@ -1,1 +1,20 @@
 
+C:\Users\naena\Desktop\kadai_004\git_challenge>git add hello_world.txt
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git commit -m"初めのコミット"
+[master 78fb6c7] 初めのコミット
+ 1 file changed, 1 deletion(-) 
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git add hello_world.txt
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git commit -m"日本語追記"
+[master d406604] 日本語追記    
+ 1 file changed, 1 insertion(+)
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git log --oneline
+d406604 (HEAD -> master) 日本語追記
+78fb6c7 初めのコミット
+ca3f489 日本語の追記
+08293d9 最初のコミット
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>
