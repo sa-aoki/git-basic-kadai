@@ -1,1 +1,25 @@
+C:\Users\naena\Desktop\kadai_004>mkdir git_challenge
 
+C:\Users\naena\Desktop\kadai_004>cd git_challenge
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git init
+Initialized empty Git repository in C:/Users/naena/Desktop/kadai_004/git_challenge/.git/
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git add hello_world.txt
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git add hello_world.txt
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git commit -m"初回コミット"
+[master (root-commit) 0673e77] 初回コミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt        
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git add hello_world.txt
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git commit -m"二回目のコミット"
+[master 0be3860] 二回目のコミット
+ 1 file changed, 1 insertion(+)
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git log --oneline
+0be3860 (HEAD -> master) 二回目のコミット
+0673e77 初回コミット
