@@ -1,0 +1,23 @@
+C:\Users\naena\Desktop\kadai_004>mkdir git_challenge
+
+C:\Users\naena\Desktop\kadai_004>cd git_challenge
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git init
+Initialized empty Git repository in C:/Users/naena/Desktop/kadai_004/git_challenge/.git/
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git add hello_world.txt
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git commit -m"hello_world.txtを追加"
+[master (root-commit) fe43aa1] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git add hello_world.txt
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git commit -m"日本語訳を追記"
+[master 4ee9fc3] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+
+C:\Users\naena\Desktop\kadai_004\git_challenge>git log --oneline
+4ee9fc3 (HEAD -> master) 日本語訳を追記
+fe43aa1 hello_world.txtを追加
